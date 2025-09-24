@@ -8,10 +8,11 @@
     <title>Owen Johnson - Portfolio</title>
 </head>
 <body>
+    <!-- NAV SECTION -->
     <nav class="navbar">
         <div class="nav-container">
             <div id="logo" class="nav-logo">
-                <a href="#home">Owen Johnson</a>
+                <a href="">Owen Johnson</a>
             </div>
             <ul id="menu-list" class="nav-menu">
                 <li class="nav-item">
@@ -46,78 +47,105 @@
             </ul>
         </div>
     </nav>
-
+    
     <main>
+        <!-- HOME SECTION -->
         <section id="home" class="main">
             <div class="image">
-                <img src="IMG_4961.JPG" class="me-pic" loading="lazy">
+                <div class="text-name">
+                    <h1>Owen Johnson</h1>
+                    <h2>Web Developer</h2>
+                    <a href="#about" class="learn-more">Learn more</a>
+                </div>
             </div>
-            <div class="text-area">
-                <h1>Owen Johnson</h1>
-                <h2>Web Developer</h2>
-                <a href="#about" class="learn-more">Learn more</a>
-            </div>
+            
         </section>
-        
+        <!-- ABOUT SECTION -->
         <section id="about" class="about">
             <div class="text-area">
             <h2>About Me</h2>
             <p>I am a Computer Science Student at Ball State University studying Web and Mobile App Development. I am continuosly expanding my knowledge of web development tools such as HTML, CSS, JS, and React. I also have experience developing front-end applications using Blazor and .NET 8.</p>
             </div>
             <div class="image-section">
-                <img src="image copy.png" class="dotnet-img" loading="lazy">
-                <img src="image copy 2.png" class="dotnet-img" loading="lazy">
+                <img src="html.png" class="dotnet-img" loading="lazy">
+                <img src="css.png" class="dotnet-img" loading="lazy">
+                <img src="net.png" class="dotnet-img" loading="lazy">
+                <img src="js.png" class="dotnet-img" loading="lazy">
             </div>
         </section>
-        
+        <!-- PROJECT SECTION -->
         <section id="projects" class="projects">
             <h2>My Projects</h2>
             <div class="project-graph">
-                <div>
-                    <p><b>CS 222 Final Project</b><br>
-                    Java application that allows users to lookup or 
-                    simulate their vehicle to compare mpg cost and overall cost of the vehicle
-                    </p>
-                    <br>
-                    <a href="https://github.com/Oij13/CS222_FinalProject/tree/master" target="_blank"><img class="p-img" src="222_project.png"></a>
-                </div>
-                <div>
-                    <p><b>CS 230 Assembler Project</b><br>
-                    Java project where I built a mini assembler that could take in  
-                    pep files and read and execute them. This project taught me a lot about reading and processing incoming files.
-                    </p> <br>
-                    <a href="https://github.com/Oij13/CS230_FirstProject_Johnson_Ceresoli" target="_blank"><img class="p-img" src="230_project.png"></a>
-                </div>
-                <div>
-                    <p><b>WIP Capstone Project</b><br>
-                    In a team of 5, we are building a site for highschool basketball players to  
-                    research and view schools and coaches at prospective colleges in one consolidated place. 
-                    </p> <br>
-                    <a href="https://github.com/TierraCodes/full-court-analytics" target="_blank"><img class="p-img" src="495_project.png"></a>
-                </div>
-                <div>
-                    <p><b>CS 120 Final Project</b><br>
-                    My final project from my first year of CS. Simple tank game that tested my  
-                    understanding of barriers and x/y axies.
-                    </p> <br>
-                    <a href="https://github.com/Oij13/Tank-Game.git" target="_blank"><img class="p-img" src="120_project.png"></a>
-                </div>
-                <div>
-                    <p><b>WIP Wedding Project</b><br>
-                    Wedding site I am working on with my girlfriend that will allow users to RSVP to our wedding 
-                    as well as view a gallery of photos stored in our database. There will also be links to external registries.
-                    </p> <br>
-                    <a href="https://github.com/Oij13/WeddingSite" target="_blank"><img class="p-img" src="wedding_project.png"></a>
-                </div>
-                <div>
-                    <p><b>My GitHub Profile</b><br>
-                    </p> <br><br><br>
-                    <a href="https://github.com/Oij13" target="_blank"><img class="p-img" src="profile.png" alt="github">
+                <div class="project-item">
+                    <a href="https://github.com/Oij13/CS222_FinalProject/tree/master" target="_blank">
+                        <img class="p-img" src="222_project.png">
                     </a>
+                    <div class="project-text">
+                        <h3>CS 222 Final Project</h3>
+                        <p>
+                            Java application that allows users to lookup or 
+                            simulate their vehicle to compare mpg cost and overall cost of the vehicle.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://github.com/Oij13/CS230_FirstProject_Johnson_Ceresoli" target="_blank">
+                        <img class="p-img" src="230_project.png">
+                    </a>
+                    <div class="project-text">
+                        <h3>CS 230 Assembler Project</h3>
+                        <p>
+                            Java project where I built a mini assembler that    could take in pep files and read and execute them. This project taught me a lot about reading and processing incoming files.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://github.com/TierraCodes/full-court-analytics" target="_blank">
+                        <img class="p-img" src="495_project.png">
+                    </a>
+                    <div class="project-text">
+                        <h3>WIP Capstone Project</h3>
+                        <p>
+                            In a team of 5, we are building a site for highschool basketball players to research and view schools and coaches at prospective colleges in one consolidated place. 
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://github.com/Oij13/Tank-Game.git" target="_blank">
+                        <img class="p-img" src="120_project.png">
+                    </a>
+                    <div class="project-text">
+                        <h3>CS 120 Final Project</h3>
+                        <p>
+                            My final project from my first year of CS. Simple tank game that tested my understanding of barriers and x/y axies.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://github.com/Oij13/Tank-Game.git" target="_blank">
+                        <img class="p-img" src="120_project.png">
+                    </a>
+                    <div class="project-text">
+                        <h3>WIP Wedding Project</h3>
+                        <p>
+                            Wedding site I am working on with my girlfriend that will allow users to RSVP to our wedding 
+                            as well as view a gallery of photos stored in our database. There will also be links to external registries.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="https://github.com/Oij13" target="_blank">
+                        <img class="p-img" src="profile.png" alt="github">
+                    </a>
+                    <div class="project-text">
+                        <h3>My GitHub Profile</h3>
+                    </div>
                 </div>
             </div>
         </section>
-        
+
+        <!-- RESUME SECTION -->
         <section id="resume" class="resume">
             <h2>My Resume</h2>
             <div class="resume-section">
@@ -141,14 +169,8 @@
                 </div>
                 <div class="resume-card">
                     <p>
-                        <b>Education</b>
+                        <b>Education</b><br>
                         August 2023 to May 2026<br> Bachelor of Science Computer Science | Concentration in Web and Mobile App Development | Ball State University | Muncie, IN 3.8 GPA 
-                    </p>
-                </div>
-                <div class="resume-card">
-                    <p>
-                        <b>Hobbies</b><br>
-                        Golf • Guitar • PC Assembly 
                     </p>
                 </div>
                 <div class="resume-card">
@@ -158,6 +180,12 @@
                         <a href="Owen_Johnson_Resume.pdf" download>
                             <button class="download-btn">Download Resume</button>
                         </a>
+                    </p>
+                </div>
+                <div class="resume-card">
+                    <p>
+                        <b>Hobbies</b><br>
+                        Golf • Guitar • PC Assembly 
                     </p>
                 </div>
             </div>
